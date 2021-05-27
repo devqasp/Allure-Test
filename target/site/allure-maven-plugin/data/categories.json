@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Setup failed:\nSessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n\n\nAlso teardown failed:\nVariable '${path}' not found.",
+      "children" : [ {
+        "name" : "Login com sucesso",
+        "uid" : "6b759054c183cf2e",
+        "parentUid" : "83894d49585444964ce7aa4a0f49b258",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622140725211,
+          "stop" : 1622140726540,
+          "duration" : 1329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login inválido",
+        "uid" : "71dfbf7a5302ac04",
+        "parentUid" : "83894d49585444964ce7aa4a0f49b258",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622140726544,
+          "stop" : 1622140727979,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83894d49585444964ce7aa4a0f49b258"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

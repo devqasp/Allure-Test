@@ -1,0 +1,42 @@
+{
+  "0359a707d12aea5499dd6e216463defe" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71dfbf7a5302ac04",
+      "status" : "failed",
+      "statusDetails" : "Setup failed:\nSessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n\n\nAlso teardown failed:\nVariable '${path}' not found.",
+      "time" : {
+        "start" : 1622140726544,
+        "stop" : 1622140727979,
+        "duration" : 1435
+      }
+    } ]
+  },
+  "1e324a7f2bc7caa14ea7899187bc12ea" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b759054c183cf2e",
+      "status" : "failed",
+      "statusDetails" : "Setup failed:\nSessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n\n\nAlso teardown failed:\nVariable '${path}' not found.",
+      "time" : {
+        "start" : 1622140725211,
+        "stop" : 1622140726540,
+        "duration" : 1329
+      }
+    } ]
+  }
+}

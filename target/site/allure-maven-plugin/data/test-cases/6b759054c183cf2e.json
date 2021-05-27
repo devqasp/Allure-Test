@@ -1,0 +1,334 @@
+{
+  "uid" : "6b759054c183cf2e",
+  "name" : "Login com sucesso",
+  "fullName" : "Login.Login com sucesso",
+  "historyId" : "1e324a7f2bc7caa14ea7899187bc12ea",
+  "time" : {
+    "start" : 1622140725211,
+    "stop" : 1622140726540,
+    "duration" : 1329
+  },
+  "status" : "failed",
+  "statusMessage" : "Setup failed:\nSessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n\n\nAlso teardown failed:\nVariable '${path}' not found.",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "basePage.Inicia sessão",
+    "time" : {
+      "stop" : 1622140726531
+    },
+    "status" : "failed",
+    "statusMessage" : "SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n",
+    "steps" : [ {
+      "name" : "Selenium2Library.Open Browser",
+      "time" : {
+        "start" : 1622140725212,
+        "stop" : 1622140726530,
+        "duration" : 1318
+      },
+      "status" : "failed",
+      "statusMessage" : "SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n",
+      "steps" : [ {
+        "name" : "Selenium2Library.Capture Page Screenshot",
+        "time" : {
+          "start" : 1622140726527,
+          "stop" : 1622140726528,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4bd417b31ebd4e2b",
+          "name" : "Keyword Log",
+          "source" : "4bd417b31ebd4e2b.html",
+          "type" : "text/html",
+          "size" : 79
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a46945fd61b57d95",
+        "name" : "Keyword Log",
+        "source" : "a46945fd61b57d95.html",
+        "type" : "text/html",
+        "size" : 348
+      } ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "${url}"
+      }, {
+        "name" : "arg2",
+        "value" : "${browser}"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Selenium2Library.Maximize Browser Window",
+      "time" : {
+        "start" : 1622140726530,
+        "stop" : 1622140726530,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "basePage.Get DateTime",
+      "time" : {
+        "start" : 1622140726530,
+        "stop" : 1622140726530,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Set Global Variable",
+      "time" : {
+        "start" : 1622140726531,
+        "stop" : 1622140726531,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 86\nCurrent browser version is 90.0.4430.72 with binary path /usr/bin/google-chrome\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "${path}"
+      }, {
+        "name" : "arg2",
+        "value" : "./log/screenshots/${_date_}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "basePage.Encerra sessão",
+    "time" : {
+      "stop" : 1622140726539
+    },
+    "status" : "failed",
+    "statusMessage" : "Variable '${path}' not found.",
+    "steps" : [ {
+      "name" : "basePage.Screenshot",
+      "time" : {
+        "start" : 1622140726532,
+        "stop" : 1622140726539,
+        "duration" : 7
+      },
+      "status" : "failed",
+      "statusMessage" : "Variable '${path}' not found.",
+      "steps" : [ {
+        "name" : "Selenium2Library.Set Screenshot Directory",
+        "time" : {
+          "start" : 1622140726532,
+          "stop" : 1622140726533,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "Variable '${path}' not found.",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c7e76eae1a923562",
+          "name" : "Keyword Log",
+          "source" : "c7e76eae1a923562.html",
+          "type" : "text/html",
+          "size" : 74
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${path}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "Selenium2Library.Capture Page Screenshot",
+        "time" : {
+          "start" : 1622140726534,
+          "stop" : 1622140726535,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "statusMessage" : "Variable '${path}' not found.",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ccf4507f4c7c0b5",
+          "name" : "Keyword Log",
+          "source" : "ccf4507f4c7c0b5.html",
+          "type" : "text/html",
+          "size" : 79
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${filename}.${file_type}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "basePage.Get DateTime",
+        "time" : {
+          "start" : 1622140726535,
+          "stop" : 1622140726537,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "statusMessage" : "Variable '${path}' not found.",
+        "steps" : [ {
+          "name" : "DateTime.Get Current Date",
+          "time" : {
+            "start" : 1622140726536,
+            "stop" : 1622140726537,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "statusMessage" : "Variable '${path}' not found.",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "472fe94e34ba02b9",
+            "name" : "Keyword Log",
+            "source" : "472fe94e34ba02b9.html",
+            "type" : "text/html",
+            "size" : 63
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "result_format=%d.%m.%Y_%H.%M.%S"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "1ac15ad3665b2ae1",
+          "name" : "Keyword Log",
+          "source" : "1ac15ad3665b2ae1.html",
+          "type" : "text/html",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Log To Console",
+        "time" : {
+          "start" : 1622140726538,
+          "stop" : 1622140726538,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "statusMessage" : "Variable '${path}' not found.",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "\\nDate of execution: ${_date_}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "picture"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Selenium2Library.Close Browser",
+      "time" : {
+        "start" : 1622140726539,
+        "stop" : 1622140726539,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "statusMessage" : "Variable '${path}' not found.",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "npml-Avell-G1555-MUV-A62-MUV"
+  }, {
+    "name" : "thread",
+    "value" : "default-e7d65859-3e20-431c-bce2-652d5ea043f4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b759054c183cf2e.json",
+  "parameterValues" : [ ]
+}

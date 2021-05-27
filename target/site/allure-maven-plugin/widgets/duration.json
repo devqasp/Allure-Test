@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6b759054c183cf2e",
+  "name" : "Login com sucesso",
+  "time" : {
+    "start" : 1622140725211,
+    "stop" : 1622140726540,
+    "duration" : 1329
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "71dfbf7a5302ac04",
+  "name" : "Login inválido",
+  "time" : {
+    "start" : 1622140726544,
+    "stop" : 1622140727979,
+    "duration" : 1435
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

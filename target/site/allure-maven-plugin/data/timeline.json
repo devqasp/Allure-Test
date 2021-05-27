@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "npml-Avell-G1555-MUV-A62-MUV",
+    "children" : [ {
+      "name" : "default-e7d65859-3e20-431c-bce2-652d5ea043f4",
+      "children" : [ {
+        "name" : "Login inválido",
+        "uid" : "71dfbf7a5302ac04",
+        "parentUid" : "96b4f3b3128ca8c70ff620aff95500bc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622140726544,
+          "stop" : 1622140727979,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login com sucesso",
+        "uid" : "6b759054c183cf2e",
+        "parentUid" : "96b4f3b3128ca8c70ff620aff95500bc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622140725211,
+          "stop" : 1622140726540,
+          "duration" : 1329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96b4f3b3128ca8c70ff620aff95500bc"
+    } ],
+    "uid" : "242ba31f33a3a0a7219dd22bd1726b04"
+  } ],
+  "name" : "timeline"
+}
